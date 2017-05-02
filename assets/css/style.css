@@ -5,6 +5,9 @@ html{
 	position:relative;
 	min-height: 100%;
 }
+body{
+	background-image: url(../images/cork-wallet.png);
+}
 .headerFont{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -21,7 +24,6 @@ html{
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
 	float:left;
-	
 }
 .header1{
 	float:left;
@@ -40,7 +42,11 @@ html{
 }
 .navLinks{
 	padding-right: 10px;
+	padding-left:10px;
 	text-decoration: none;
+}
+.navBorder{
+	border-right: 1px solid #cccccc;
 }
 .header2{
 	color: #4aaaa5;
@@ -57,11 +63,12 @@ html{
 	border-bottom: 2px solid #cccccc;
 }
 .content{
-	background-color: #777777;
+	float:left;
 	clear:both;
 	width: 960px;
 	line-height: 150%;
 }
+
 .leftSection{
 	float: left;
 	width: 550px;
