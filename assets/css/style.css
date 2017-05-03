@@ -35,12 +35,32 @@ html{
 .contactForm2 {
 	width: 80%;
 	height: 150px;
+	margin-top:20px;
 	padding: 5px 5px 5px 5px;
 	color: #777777;
+	resize: vertical;
 }
 
 .contactlogo{
 	width:50px;
+}
+
+.contactSubmit {
+	cursor:pointer;
+	width:100px;
+	border:none;
+	background:#4aaaa5;
+	color:#ffffff;
+	margin:10px 10px 10px 10px;
+	padding:10px;
+	font-size:15px;
+}
+
+.contactSubmit:hover {
+	background:#666666;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
 }
 
 .footer{
@@ -60,6 +80,7 @@ html{
 .header1{
 	float:left;
 	font-size: 28px;
+	font-weight: bold;
 	color: #ffffff;
 	margin-left:80px;
 	background-color: #4aaaa5;
@@ -69,6 +90,7 @@ html{
 .header2{
 	color: #4aaaa5;
 	font-size: 24px;
+	font-weight: bold;
 	margin:10px 10px 10px 10px;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #cccccc;
@@ -77,9 +99,23 @@ html{
 .header3{
 	color: #4aaaa5;
 	font-size: 20px;
+	font-weight: bold;
 	margin:10px 10px 10px 10px;
 	padding-bottom: 10px;
 	border-bottom: 2px solid #cccccc;
+}
+
+.header4{
+	float:left;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 12px 0px 12px 0px;
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	top:150px;
+	left:20px;
 }
 
 .headerBar{
@@ -92,7 +128,6 @@ html{
 
 .headerFont{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
 }
 
 .leftSection{
@@ -126,8 +161,10 @@ html{
 	margin:0 auto;
 }
 
-.portfolio{
-	padding-left:20px;
+.portfolioElement{
+	padding: 10px 20px 10px 20px;
+	position:relative;
+	float:left;
 }
 
 .profilePic{
