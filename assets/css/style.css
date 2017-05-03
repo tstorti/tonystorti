@@ -1,108 +1,48 @@
 *{
 	box-sizing: border-box;
 }
+
+body{
+	/* Background pattern from Subtle Patterns */
+	background-image: url(../images/cork-wallet.png);
+}
+
 html{
 	position:relative;
 	min-height: 100%;
 }
-body{
-	background-image: url(../images/cork-wallet.png);
-}
-.headerFont{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
-}
-.regFont{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	font-size: 18px;
-	line-height: 150%;
-}
-.headerBar{
-	font-size: 28px;
-	width: 960px;
-	background-color: #ffffff;
-	border-bottom: 2px solid #cccccc;
-	float:left;
-}
-.header1{
-	float:left;
-	font-size: 28px;
-	color: #ffffff;
-	margin-left:80px;
-	background-color: #4aaaa5;
-	padding: 12px 20px 12px 20px;
-}
 
-.nav{
-	float:right;
-	font-size: 28px;
-	margin-right:80px;
-	padding: 10px 20px 10px 20px;
-}
-.navLinks{
-	padding-right: 10px;
-	padding-left:10px;
-	text-decoration: none;
-}
-.navBorder{
-	border-right: 1px solid #cccccc;
-}
-.header2{
-	color: #4aaaa5;
-	font-size: 24px;
-	margin:10px 10px 10px 10px;
-	padding-bottom: 10px;
-	border-bottom: 2px solid #cccccc;
-}
-.header3{
-	color: #4aaaa5;
-	font-size: 20px;
-	margin:10px 10px 10px 10px;
-	padding-bottom: 10px;
-	border-bottom: 2px solid #cccccc;
-}
-.content{
-	float:left;
-	clear:both;
-	width: 960px;
-	line-height: 150%;
-}
-
-.leftSection{
-	float: left;
-	width: 550px;
-	background-color:#ffffff;
-	border: 1px solid #dddddd;
-	margin:50px 50px 50px 50px;
-	padding: 10px 10px 10px 10px;
-}
 .bio{
 	margin-bottom: 1.25em;
 }
-.profilePic{
-	float: left;
-	width: 150px;
-	margin:5px 20px 10px 10px;
+
+.content{
+	float:left;
+	clear:both;
+	line-height: 150%;
 }
-.contactlogo{
-	width:50px;
-}
-.rightSection{
-	float: left;
-	text-align: center;
-	width: 220px;
-	background-color:#ffffff;
-	border: 1px solid #dddddd;
-	margin:50px 50px 50px 0px;
-	padding: 10px 10px 10px 10px;
-}
+
 .contactForm{
 	padding-left:20px;
 }
-.portfolio{
-	padding-left:20px;
+
+.contactForm1 {
+	width: 80%;
+	padding: 5px 5px 5px 5px;
+	color: #777777;
 }
+
+.contactForm2 {
+	width: 80%;
+	height: 150px;
+	padding: 5px 5px 5px 5px;
+	color: #777777;
+}
+
+.contactlogo{
+	width:50px;
+}
+
 .footer{
 	clear: both;
 	font-size: 10px;
@@ -114,17 +54,103 @@ body{
 	border-top: 5px solid #4aaaa5;
 	background-color: #666666;
 	position: absolute;
-    left: 0;
     bottom: 0;
 }
-.contactForm1 {
-	width: 80%;
-	padding: 5px 5px 5px 5px;
-	color: #777777;
+
+.header1{
+	float:left;
+	font-size: 28px;
+	color: #ffffff;
+	margin-left:80px;
+	background-color: #4aaaa5;
+	padding: 12px 20px 12px 20px;
 }
-.contactForm2 {
-	width: 80%;
-	height: 150px;
-	padding: 5px 5px 5px 5px;
-	color: #777777;
+
+.header2{
+	color: #4aaaa5;
+	font-size: 24px;
+	margin:10px 10px 10px 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
 }
+
+.header3{
+	color: #4aaaa5;
+	font-size: 20px;
+	margin:10px 10px 10px 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.headerBar{
+	font-size: 28px;
+	width: 960px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	float:left;
+}
+
+.headerFont{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+.leftSection{
+	float: left;
+	width: 550px;
+	background-color:#ffffff;
+	border: 1px solid #dddddd;
+	margin:50px 50px 50px 50px;
+	padding: 10px 10px 10px 10px;
+}
+
+.nav{
+	float:right;
+	font-size: 28px;
+	margin-right:80px;
+	padding: 10px 20px 10px 20px;
+}
+
+.navBorder{
+	border-right: 1px solid #cccccc;
+}
+
+.navLinks{
+	padding-right: 10px;
+	padding-left:10px;
+	text-decoration: none;
+}
+
+.pageContainer{
+	width: 960px;
+	margin:0 auto;
+}
+
+.portfolio{
+	padding-left:20px;
+}
+
+.profilePic{
+	float: left;
+	width: 150px;
+	margin:5px 20px 10px 10px;
+}
+
+.regFont{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.rightSection{
+	float: left;
+	text-align: center;
+	width: 220px;
+	background-color:#ffffff;
+	border: 1px solid #dddddd;
+	margin:50px 50px 50px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+
