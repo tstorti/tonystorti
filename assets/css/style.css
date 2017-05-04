@@ -14,10 +14,10 @@ html{
 
 .bio{
 	margin-bottom: 1.25em;
+	margin:10px 20px 10px 10px;
 }
 
 .content{
-	float:left;
 	clear:both;
 	line-height: 150%;
 }
@@ -43,6 +43,10 @@ html{
 
 .contactlogo{
 	width:50px;
+	padding: 2px;
+}
+.contactlogo:hover{
+	border: 1px solid #666666;
 }
 
 .contactSubmit {
@@ -117,6 +121,9 @@ html{
 	top:150px;
 	left:20px;
 }
+.header4:hover{
+	text-decoration: underline;
+}
 
 .headerBar{
 	font-size: 28px;
@@ -132,10 +139,10 @@ html{
 
 .leftSection{
 	float: left;
-	width: 550px;
+	width: 650px;
 	background-color:#ffffff;
 	border: 1px solid #dddddd;
-	margin:50px 50px 50px 50px;
+	margin:50px 10px 50px 10px;
 	padding: 10px 10px 10px 10px;
 }
 
@@ -155,9 +162,17 @@ html{
 	padding-left:10px;
 	text-decoration: none;
 }
+.navLinks:hover{
+	text-decoration: underline;
+}
 
 .pageContainer{
 	width: 960px;
+	margin:0 auto;
+}
+
+.portfolio{
+	width:480px;
 	margin:0 auto;
 }
 
@@ -176,17 +191,17 @@ html{
 .regFont{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 150%;
 }
 
 .rightSection{
 	float: left;
 	text-align: center;
-	width: 220px;
+	width: 270px;
 	background-color:#ffffff;
 	border: 1px solid #dddddd;
-	margin:50px 50px 50px 0px;
+	margin:50px 10px 50px 10px;
 	padding: 10px 10px 10px 10px;
 }
 
